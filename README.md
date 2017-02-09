@@ -22,7 +22,7 @@
 С 1 по 8 строчку настройка. 
 ```javascript
 var setup = {
-    img: true, // replace img for src.img
+    img: true, // replace img for img.src
     a: true, // replace img for a.href
     colorScheme: 'bw'
     // inv - inverse text color
