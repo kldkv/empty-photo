@@ -9,11 +9,11 @@
 На выходе будет вставлено inline base64 image.
 
 Пример:
-<a href="500*500*#FFFFFF"><img src="125*225*#000" alt=""></a>
+// <a href="500*500*#FFFFFF"><img src="125*225*#000" alt=""></a>
 
 Сгенерирует черный прямоугольник со сторонами 125px и 225px. По клику будет открыт белый квадрат со стороной 500px.
 
-<a href="data:image/png;base64,iVBORw...CC"><img src="data:image/png;base64,iVBORw0K...YII=" alt=""></a>
+// <a href="data:image/png;base64,iVBORw...CC"><img src="data:image/png;base64,iVBORw0K...YII=" alt=""></a>
 
 Настройка:
 
