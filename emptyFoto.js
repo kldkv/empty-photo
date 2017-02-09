@@ -1,10 +1,10 @@
 var setup = {
-    img: true,
-    a: true,
+    img: true, // replace img for src.img
+    a: true, // replace img for a.href
     colorScheme: 'bw'
-    // inv
-    // bw
-    // gs
+    // inv - inverse text color
+    // bw - black or white text color
+    // gs - grayscale text color
 };
 
 function replaceImg() {
