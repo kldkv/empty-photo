@@ -20,6 +20,7 @@
 Настройка:
 
 С 1 по 8 строчку настройка. 
+```javascript
 var setup = {
     img: true, // replace img for src.img
     a: true, // replace img for a.href
@@ -28,3 +29,4 @@ var setup = {
     // bw - black or white text color
     // gs - grayscale text color
 };
+```
