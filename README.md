@@ -5,12 +5,12 @@
 
 Использование:
 
-Всё что нужно это написать в атрибут href(a) или в src(img) строку вида ширина\*высота\*#цветHex
+Всё что нужно это написать в атрибут href(a) или в src(img) строку вида $ширина\*высота\*#цветHex
 На выходе будет вставлено inline base64 image.
 
 Пример:
 ```html
-<a href="500*500*#FFFFFF"><img src="125*225*#000" alt=""></a>
+<a href="$500*500*#FFFFFF"><img src="$125*225*#000" alt=""></a>
 ```
 
 Сгенерирует черный прямоугольник со сторонами 125px и 225px. По клику будет открыт белый квадрат со стороной 500px.
@@ -19,14 +19,16 @@
 ```
 Настройка:
 
-С 1 по 8 строчку настройка. 
+С 1 по 10 строчку настройка. 
 ```javascript
 var setup = {
-    img: true, // replace img for img.src
-    a: true, // replace img for a.href
-    colorScheme: 'bw'
-    // inv - inverse text color
-    // bw - black or white text color
-    // gs - grayscale text color
+  typeImage: 'jpeg', // png, jpeg(faster), webp(slow)
+  quality: 0.9, // A Number between 0 and 1 indicating image quality if the requested type is image/jpeg or image/webp
+  img: true, // replace img for img.src
+  a: true, // replace img for a.href
+  colorScheme: 'bw',
+  // inv - inverse text color
+  // bw - black or white text color
+  // gs - grayscale text color
 };
 ```
