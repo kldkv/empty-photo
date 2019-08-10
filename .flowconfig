@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/*
+
+[options]
+module.file_ext=.js
+module.file_ext=.jsx
+
+[libs]
+/flow-typed/npm

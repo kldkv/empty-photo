@@ -1,0 +1,12 @@
+// @flow
+import {MOD, TYPE} from './constants'
+
+type EmptyPhotoProps = {|
+  width: number,
+  height: number,
+  color: string,
+  quality: number,
+  ['JPEG' | 'BW' | 'PNG' | 'WEBP' | 'INV' | 'GS']: boolean
+|}
+
+export type {EmptyPhotoProps}

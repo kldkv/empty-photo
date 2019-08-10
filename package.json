@@ -1,0 +1,36 @@
+{
+  "name": "emptyfoto.js",
+  "version": "1.0.0",
+  "description": "Общее описание:",
+  "main": "emptyfoto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kldkv/emptyfoto.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kldkv/emptyfoto.js/issues"
+  },
+  "homepage": "https://github.com/kldkv/emptyfoto.js#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.104.0",
+    "flow-typed": "^2.6.1",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "color-rgba": "^2.1.1",
+    "color-stringify": "^1.2.1"
+  }
+}
